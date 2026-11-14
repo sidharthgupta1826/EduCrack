@@ -72,13 +72,13 @@ export const Hero = () => {
               {config.tagline}
             </p>
 
-            {/* Hindi Tagline & Subtitle (From Reference Image 1) */}
+            {/* Highlight Banner / Taglines */}
             <div className="p-3.5 sm:p-5 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md space-y-2 text-left">
-              <h2 className="text-base sm:text-2xl font-bold text-blue-100 tracking-wide font-hindi leading-snug break-words">
-                {config.hindiTagline}
+              <h2 className="text-base sm:text-2xl font-bold text-blue-100 tracking-wide leading-snug break-words">
+                {config.highlightTagline || config.hindiTagline}
               </h2>
-              <p className="text-xs sm:text-base text-slate-300 leading-relaxed font-hindi">
-                {config.hindiSubtitle}
+              <p className="text-xs sm:text-base text-slate-300 leading-relaxed">
+                {config.highlightSubtitle || config.hindiSubtitle}
               </p>
             </div>
 

@@ -13,9 +13,11 @@ export const SITE_CONFIG = {
   // Tagline
   tagline: "Your Destination for Competitive Exam Preparation.",
   
-  // Bilingual Welcome & Taglines
-  hindiTagline: "आपकी सफलता की तैयारी, सही स्टडी मटेरियल के साथ।",
-  hindiSubtitle: "प्रतियोगी परीक्षाओं की तैयारी के लिए उपयोगी नोट्स और अध्ययन सामग्री।",
+  // Welcome & Highlight Subtitles
+  hindiTagline: "Preparing for your success with the right study material.",
+  hindiSubtitle: "Useful notes and study resources for competitive exam preparation.",
+  highlightTagline: "Preparing for your success with the right study material.",
+  highlightSubtitle: "Useful notes and study resources for competitive exam preparation.",
   badgeText: "Official Education Website",
   
   // Platform Introduction

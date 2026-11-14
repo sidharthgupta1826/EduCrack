@@ -16,6 +16,14 @@ export const ConfigProvider = ({ children }) => {
         ) {
           parsed.siteName = SITE_CONFIG.siteName;
         }
+        if (
+          !parsed.hindiTagline ||
+          parsed.hindiTagline.includes('आपकी') ||
+          parsed.hindiTagline.includes('सफलता')
+        ) {
+          parsed.hindiTagline = SITE_CONFIG.hindiTagline;
+          parsed.hindiSubtitle = SITE_CONFIG.hindiSubtitle;
+        }
         return {
           ...SITE_CONFIG,
           ...parsed,

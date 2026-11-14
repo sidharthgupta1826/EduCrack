@@ -90,8 +90,8 @@ googleDriveLinks: {
    - `"Official Education Website"` badge pill (inspired by reference image 1)
    - Website/Channel name displayed prominently
    - Tagline: *"Your Destination for Competitive Exam Preparation."*
-   - Hindi tagline: *"आपकी सफलता की तैयारी, सही स्टडी मटेरियल के साथ।"*
-   - Hindi subtitle: *"प्रतियोगी परीक्षाओं की तैयारी के लिए उपयोगी नोट्स और अध्ययन सामग्री।"*
+   - Subtitle: *"Preparing for your success with the right study material."*
+   - Description: *"Useful notes and study resources for competitive exam preparation."*
    - Highlight badges: **SSC Exams**, **Railway Exams**, and **General Studies**
    - Direct CTA buttons: **"Explore Study Material"** (scrolls down) & **"Explore All Notes"** (opens master Google Drive folder in a new tab)
 
